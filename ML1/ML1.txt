@@ -1,0 +1,20 @@
+ML_week1           2016.7.10
+the introduction of machine learning
+
+supervised learning: right answers
+	instance: house-price prediction, breast cancer(tumor)
+unsupervised learning: cluster
+	instance: news, market segmentation, cocktail-party problem
+regression: continous valued output
+classification: discrete valued output
+
+linear regression
+hypothesis function: regression function
+cost function: the error
+
+an algorithm to find the minimum optimum of the cost function
+(batch) gradient descent
+
+linear algebra review
+matrix inverse, transpose
+
