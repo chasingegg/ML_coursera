@@ -1,0 +1,19 @@
+ML_week3                      2016.7.24
+logistic regression and regularization
+
+logistic regression(classification)
+instance: Email(spam/not spam)  online transaction(fraudulent/not)
+binary classification
+	hypothesis function: sigmoid function(logistic function), h(x) represents the probability of y = 1
+	decision boundary: z = 0
+	cost function(convex)
+	optimization: gradient descent and some advanced optimizations
+ multi-class classification
+	calculate h(x) for every possible results, choose the maximum one to predict.
+
+regularization solve the problem of overfitting
+two options to avoid overfitting: reduce the number of feature, regularization
+regularization: “simpler” hypothesis
+make some changes to the cost function(lambda)
+
+
