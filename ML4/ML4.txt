@@ -1,0 +1,11 @@
+ML_week4           2016.7.26
+Neural Networks: Representation.
+
+neural networks is used to mimic the brain.
+activation function / sigmoid function
+parameters / weights
+input layer  hidden layer  output layer
+vectorized implementation: z = theta * x , a = g(z)
+example: handwriting digit recognition
+multi-class classification
+
