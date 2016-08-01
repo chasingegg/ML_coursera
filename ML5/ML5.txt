@@ -1,0 +1,18 @@
+ML_week5                 2016.7.30
+neural networks: learning(difficult!!! important!!!)
+
+L = number of layers in network 
+Sl = number of units in layer(not include bias unit)
+
+get the cost function of neural network(regularized), we need to calculate the partial derivative, we have backpropagation algorithm.
+there are steps:
+set a = x
+compute all the a in every layer
+using y to compute delta
+use backpropagation to compute all the delta(not include the input layer)
+gradient addition  
+
+gradient checking
+random initialization
+regularized neural networks
+learning parameters
