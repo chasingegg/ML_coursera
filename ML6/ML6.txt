@@ -1,0 +1,20 @@
+ML_week6                      2016.8.3
+advice for applying machine learning   machine learning system design
+
+bias and variance(underfitting and overfitting)
+training set / cross-validation set / test set
+
+error with degree of polynomial
+error with regularization
+error with training set size(learning curve)
+
+fix high variance: get more training examples/try smaller sets of features/try increasing lambda
+fix high bias: try getting additional features/try add polynomial features/try decreasing lambda
+
+error analysis  numerical evaluation
+skewed class: a lot more of examples from one class than from the other class
+sometimes accuracy is not very good to verify if the algorithm works well, we have another two things, precision and recall, precision = true positives/predicted positives
+recall = true positives/actual positives     trade off precision and recall 
+F1 score = 2 * P * R / (P + R)
+
+data for machine learning 
