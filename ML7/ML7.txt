@@ -1,0 +1,17 @@
+ML_week7                 2016.8.3
+support vector machines 
+
+some changes to the logistic regression
+an important feature: large margin classifier
+
+kernel function(similarity function)
+x(i)  ——>  f(i) ( sin(x(i), l(i) )
+Gaussian kernel     large C -> high variance      large delta -> high bias
+
+using a SVM
+choice of parameter C
+choice of  kernel
+
+logistic regression vs SVM
+if n >> m, or n is small and m is very large   logistic regression
+if n is small and m is intermediate                SVM
