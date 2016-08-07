@@ -1,0 +1,23 @@
+ML_week8                 2016.8.6
+unsupervised learning   dimensionality reduction
+
+K-Means algorithm: 1. cluster assignment  2. move centroids
+distortion(cost function)
+
+dimensionality reduction: data needs more disk space   bad performance on visualization
+PCA(principal component analysis)  one of the compression algorithms
+for instance: 2-dimension to 1-dimension  find a direction to minimize the projection error
+PCA is not linear regression
+
+how to implement PCA
+data preprocessing
+compute covariance matrix(sigma)
+[U, S, V] = svd(sigma);
+Z = U(:, 1:K)’ * X;
+
+reconstruction from compressed representation
+
+how to choose dimension K
+average squared projection error / total variation in the data <= 0.01
+
+PCA throw away some information, it’s bad to use PCA to prevent overfitting, we should use regularization. Another thing, first try running the original data, not to reduce dimension at the start.
