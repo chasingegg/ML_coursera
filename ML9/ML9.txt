@@ -1,0 +1,19 @@
+ML_week9                         2016.8.8
+anomaly detection && recommender systems
+
+anomaly detection: unsupervised learning
+Gaussian distribution   mu, variance
+anomaly detection algorithm
+choose features Xi  
+fit parameters mu, variance
+given new example x, compute p(x), anomaly if p(x) < epsilon
+some instances: fraud detection, manufacturing(aircraft engines), monitoring machine
+
+multivariate Gaussian distribution  some features are correlated
+automatically captures correlations between features
+must have m > n, or sigma is non-invertible
+
+recommender systems
+collaborative filtering
+iterations: theta -> x -> theta -> x -> theta -> x …..
+low rank matrix factorization 
