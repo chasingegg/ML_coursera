@@ -1,0 +1,23 @@
+ML_week10                   2016.8.9
+large scale machine learning
+
+stochastic gradient descent   (one example every iteration)
+randomly shuffle the data set
+repeat  {
+for i = 1:m
+update theta
+}
+
+mini-batch gradient descent  (b examples every iteration)
+
+checking for convergence
+for batch gradient descent, plot J as a function of the numbers of iterations
+for stochastic gradient descent, plot cost(theta, (x, y)) averaged over the last 1000(this is  not compulsory)examples processed by algorithm.
+
+for stochastic gradient descent, a problem may occur that the result wander around, but not the global minimum. We can slowly decrease alpha over time (alpha = constant1 / (iteration-number + constant2)).
+
+online learning(continous stream of data)
+get one example and learn, and then throw that example away, and moving on.
+
+map-reduce and data parallelism
+computing sums can be done by more than one machine.
