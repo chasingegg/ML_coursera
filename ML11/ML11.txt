@@ -1,0 +1,12 @@
+ML_week11                  2016.8.11
+photo OCR
+
+photo OCR(photo optical character recognition)
+photo OCR pipeline
+text detection
+character segmentation
+character classification
+
+sliding windows
+artificial data synthesis(have a sanity check before getting more data)
+ceiling analysis(what part of the pipeline should you spend the most time trying to improve accuracy)
